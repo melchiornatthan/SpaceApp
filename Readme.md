@@ -7,8 +7,7 @@ SpaceApp is a simple application that could be used as a tool to ease the task r
 
 
 ## Documentation
-
-- [POSTMAN API](https://documenter.getpostman.com/view/18411617/UzBmMmzy)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/18411617/UzBmMmzy)
 
 
 ## ERD and Flow
