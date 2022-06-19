@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:title="Logout"
+    android:icon="@drawable/ic_baseline_login_24"
+    android:id="@+id/logout"
+    app:showAsAction="ifRoom"
+    />
+    <item
+        android:title="Invoice"
+        android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+        android:id="@+id/invoice"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:title="account"
+        android:icon="@drawable/ic_baseline_person_outline_24_white"
+        android:id="@+id/account"
+        app:showAsAction="ifRoom"
+        />
+</menu>

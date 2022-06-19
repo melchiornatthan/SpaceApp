@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBE0C3"
+    tools:context=".InvoiceActivity">
+
+    <TextView
+        android:id="@+id/titleInv"
+        android:layout_width="217dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="32dp"
+        android:text="My\nInvoice"
+        android:textColor="#0B0101"
+        android:textSize="48sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/itemView"
+        android:layout_width="336dp"
+        android:padding="12dp"
+        android:background="@color/white"
+        android:layout_height="494dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleInv" />
+</androidx.constraintlayout.widget.ConstraintLayout>
